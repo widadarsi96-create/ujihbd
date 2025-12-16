@@ -225,15 +225,14 @@ function startTypewriter() {
 
     const fullMessage = `Hi,
 
-Happy Birthday!
+It's your day sayang.
+Dan ada sedikit cerita dari aku yang pengen aku titipin buat kamu.
 
 22 Desember menjadi penanda ketika dunia kedatangan seorang gadis bernama Karmila Jazila—gadis yang kehadiranya seperti garis cahaya yang membelah gelap. Hidup seolah menemukan ritme baru sejak saat itu: lebih hangat, lebih lembut, dan lebih penuh dengan harapan. Di setiap langkah yang ia tempuh, ada doa-doa yang tumbuh bersamanya, ada mimpi yang perlahan menemukan bentuknya, dan ada kebaikan yang selalu ia sisipkan bahkan dalam hal-hal kecil yang mungkin tak diliat siapapun.
 
 Dan sejak perjalananya bersinggungan dengan seorang pria bernama Farhan, ada kesadaran baru yang lahir dan ada sebuah perubahan yang perlahan tapi pasti. Karmila bukanlah seorang guru atau bahkan seorang dosen, tapi ia mampu membuat Farhan mengerti bahwa dunia tak sesempit yang selama ini dia pikirkan; bahwa wawasan bisa, dan harus, diperluas; bahwa dewasa bukan hanya soal umur, tapi cara pandang kita terhadap kehidupan. Bersamanya, seluruh hal yang tadinya tampak biasa justru terasa lebih hidup. Ia menjadi semacam jendela yang membuka pandangan lebih jauh, lebih tinggi, dan pastinya lebih jernih. Maka di hari bertambah umurnya ini, Saya—Farhan—sangat berharap dunia akan bersikap lebih lembut lagi kepadanya, sebagaimana ia telah membuat hati Farhan belajar menjadi lebih baik dan lebih dewasa.
 
-Thank You 
-and
-I love you so muchhh`;
+Happy born day, sayang. Makasih kamu udah hadir di hidupku. I love you so much`;
 
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -324,7 +323,7 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: ' Beautiful Girl💕',
+            text: ' Beautiful Girl',
             image: 'photo1.jpg.jpg'
         },
         {
