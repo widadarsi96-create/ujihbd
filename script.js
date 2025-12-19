@@ -228,7 +228,7 @@ function startTypewriter() {
 It's your day sayang.
 Dan ada sedikit cerita dari aku yang pengen aku titipin buat kamu.
 
-22 Desember menjadi penanda ketika dunia kedatangan seorang gadis bernama Karmila Jazila, gadis yang kehadiranya seperti garis cahaya yang membelah gelap. Hidup seolah menemukan ritme baru sejak saat itu: lebih hangat, lebih lembut, dan lebih penuh dengan harapan. Di setiap langkah yang ia tempuh, ada doa-doa yang tumbuh bersamanya, ada mimpi yang perlahan menemukan bentuknya, dan ada kebaikan yang selalu ia sisipkan bahkan dalam hal-hal kecil yang mungkin tak diliat siapapun. Maka di hari bertambah umurnya ini, Saya—Farhan—sangat berharap Tuhan mengizinkan umurnya untuk lebih panjang lagi, dan semoga dunia akan bersikap lebih lembut lagi kepadanya.
+22 Desember menjadi penanda ketika dunia kedatangan seorang gadis, gadis itu ialah Karmila, Karmila Jazila—gadis yang kehadiranya seperti garis cahaya yang membelah gelap. Hidup seolah menemukan ritme baru sejak saat itu: lebih hangat, lebih lembut, dan lebih penuh dengan harapan. Di setiap langkah yang ia tempuh, ada doa-doa yang tumbuh bersamanya, ada mimpi yang perlahan menemukan bentuknya, dan ada kebaikan yang selalu ia sisipkan bahkan dalam hal-hal kecil yang mungkin tak diliat siapapun. Maka di hari bertambah umurnya ini, Saya—Farhan—sangat berharap Tuhan mengizinkan umurnya untuk lebih panjang lagi, dan semoga dunia akan bersikap lebih lembut lagi kepadanya.
 
 Happy born day, sayang. Thank you for teaching me to be more mature, and thank you for being in my life. I love you so muchhh❤️❤️❤️`;
 
@@ -1189,4 +1189,5 @@ function handleContinueNavigation() {
         default:
             showScreen('main');
     }
+
 }
