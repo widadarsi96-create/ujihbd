@@ -223,14 +223,10 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
 
-    const fullMessage = `Hi,
+    const fullMessage = `
+22 Desember menjadi penanda ketika dunia kedatangan seorang gadis bernama Karmila Jazila, gadis yang kehadiranya seperti garis cahaya yang membelah gelap. Hidup seolah menemukan ritme baru sejak saat itu: lebih hangat, lebih lembut, dan lebih penuh dengan harapan. Di setiap langkah yang ia tempuh, ada doa-doa yang tumbuh bersamanya, ada mimpi yang perlahan menemukan bentuknya, dan ada kebaikan yang selalu ia sisipkan bahkan dalam hal-hal kecil yang mungkin tak diliat siapapun. Karena itu, di hari bertambah umurnya ini, saya sangat berharap Tuhan mengizinkan umurnya untuk lebih panjang, dan semoga dunia akan bersikap lebih lembut kepadanya—atas segala kebaikan yang ia sisipkan dalam hal-hal kecil.
 
-It's your day sayang.
-Dan ada sedikit cerita dari aku yang pengen aku titipin buat kamu.
-
-22 Desember menjadi penanda ketika dunia kedatangan seorang gadis, gadis itu ialah Karmila, Karmila Jazila—gadis yang kehadiranya seperti garis cahaya yang membelah gelap. Hidup seolah menemukan ritme baru sejak saat itu: lebih hangat, lebih lembut, dan lebih penuh dengan harapan. Di setiap langkah yang ia tempuh, ada doa-doa yang tumbuh bersamanya, ada mimpi yang perlahan menemukan bentuknya, dan ada kebaikan yang selalu ia sisipkan bahkan dalam hal-hal kecil yang mungkin tak diliat siapapun. Maka di hari bertambah umurnya ini, Saya—Farhan—sangat berharap Tuhan mengizinkan umurnya untuk lebih panjang lagi, dan semoga dunia akan bersikap lebih lembut lagi kepadanya.
-
-Happy born day, sayang. Thank you for teaching me to be more mature, and thank you for being in my life. I love you so muchhh❤️❤️❤️`;
+Happy born day, sayang. Thank you for being in my life, and Thank you for teaching me to be more mature. I love you so muchhh❤️❤️❤️`;
 
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -377,7 +373,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 BIRTHDAY MEMORIES 💕</div>
+            <div class="photo-strip-footer">💕 PIECES OF YOU 💕</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
@@ -1189,5 +1185,4 @@ function handleContinueNavigation() {
         default:
             showScreen('main');
     }
-
 }
