@@ -261,7 +261,9 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `22 Desember menjadi penanda ketika dunia kedatangan seorang gadis bernama Karmila Jazila, gadis yang kehadiranya seperti garis cahaya yang membelah gelap. Hidup seolah menemukan ritme baru sejak saat itu: lebih hangat, lebih lembut, dan lebih penuh dengan harapan. Di setiap langkah yang ia tempuh, ada doa-doa yang tumbuh bersamanya, ada mimpi yang perlahan menemukan bentuknya, dan ada kebaikan yang selalu ia sisipkan bahkan dalam hal-hal kecil yang mungkin tak diliat siapapun. Karena itu, di hari bertambah umurnya ini, saya sangat berharap Tuhan mengizinkan umurnya untuk lebih panjang, dan semoga dunia akan bersikap lebih lembut kepadanya—atas segala kebaikan yang ia sisipkan dalam hal-hal kecil.
+            <br><br>
+            Happy born day, sayang. Thank you for being in my life, and Thank you for teaching me to be more mature. I love you so muchhh❤️❤️❤️`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
