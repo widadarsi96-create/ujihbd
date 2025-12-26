@@ -105,6 +105,12 @@ function transitionToMainScreen() {
     }, 600);
 }
 
+var audio = document.getElementById('backsound');
+
+document.body.addEventListener('click', function() {
+    audio.play();
+}, {once:true});
+
 function initializeMainScreen() {
     // Add interactive elements and event listeners
     const menuButtons = document.querySelectorAll('.menu-btn');
@@ -150,13 +156,11 @@ function showScreen(screenName) {
         screen.classList.remove('active');
     });
 
-    // Show target screen
     const targetScreen = document.getElementById(screenName + '-screen');
     if (targetScreen) {
         targetScreen.classList.add('active');
         currentScreen = screenName;
 
-        // Initialize screen-specific content
         switch (screenName) {
             case 'message':
                 setTimeout(() => {
