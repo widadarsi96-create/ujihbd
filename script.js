@@ -103,13 +103,22 @@ function transitionToMainScreen() {
         }, 1200);
 
     }, 600);
-}
+};
 
-var audio = document.getElementById('backsound');
+const audio = document.getElementById('backsound');
+const btn = document.getElementById('actionfar');
 
-document.body.addEventListener('click', function() {
-    audio.play();
-}, {once:true});
+btn.addEventListener ('click', function() {
+    if (audio.paused) {
+        audio.play();
+        btn.innerHTML = "PAUSE";
+    }
+
+    else {
+        audio.pause()
+        btn.innerHTML = "MUSIC";
+    }
+});
 
 function initializeMainScreen() {
     // Add interactive elements and event listeners
